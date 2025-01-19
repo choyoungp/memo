@@ -19,7 +19,9 @@
           'event_label': 'Purchase Button',
           'value': 1100
         });
-        window.location.href = 'checkout.html';
+        setTimeout(function() {
+          window.location.href = 'checkout.html';
+        }, 100);
       }
     </script>
   </head>
@@ -100,7 +102,9 @@
           <img class="frame-4" src="img/frame-4.png" />
           <img class="frame-5" src="img/frame-5.png" />
         </div>
-        <div class="div-wrapper" onclick="trackPurchaseClick()"><div class="text-wrapper-21">구매 ₩1,100</div></div>
+        <a href="checkout.html" onclick="trackPurchaseClick(); return false;" style="text-decoration: none; cursor: pointer;">
+          <div class="div-wrapper"><div class="text-wrapper-21">구매 ₩1,100</div></div>
+        </a>
         <div class="overlap-2">
           <div class="group-wrapper">
             <div class="group-4">
