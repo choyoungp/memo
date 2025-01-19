@@ -2,8 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RQJDG6VSW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1RQJDG6VSW');
+
+      // Event tracking
+      function trackPurchaseClick() {
+        gtag('event', 'click', {
+          'event_category': 'Button',
+          'event_label': 'Purchase Button',
+          'value': 1100
+        });
+        window.location.href = 'checkout.html';
+      }
+    </script>
   </head>
   <body>
     <div class="screen">
