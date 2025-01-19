@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+
+      // Event tracking
+      function trackFeedbackClick() {
+        gtag('event', 'click', {
+          'event_category': 'Button',
+          'event_label': 'Feedback Form',
+        });
+        window.location.href = 'https://forms.gle/7ntdsXfCrAkjsXHA7';
+      }
+    </script>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="div">
+        <div class="overlap">
+          <p class="text-wrapper">이 페이지는 서비스에 대한<br />시장조사를 위해 제작된 프로토타입입니다.</p>
+          <p class="p">
+            실제 결제가 이루어지지 않으니 안심하셔도 됩니다.<br />이 서비스가 실제로 출시되기를 원하신다면, 의견을
+            남겨주세요! <br /><br />여러분의 피드백이 더 나은 서비스를 만드는 데 큰 도움이 됩니다. 서비스에 관심
+            가져주셔서 진심으로 감사드립니다. 🙌
+          </p>
+        </div>
+        <div class="overlap-group"><div class="text-wrapper-2">􀅵&nbsp;&nbsp;이 페이지는 프로토타입입니다.</div></div>
+        <div class="button" onclick="trackFeedbackClick()"><div class="text-wrapper">􀌳 의견 남기기</div></div>
+      </div>
+    </div>
+  </body>
+</html>
