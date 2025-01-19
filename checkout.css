@@ -1,0 +1,145 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.screen .overlap-wrapper {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  max-width: 540px;
+  padding: 20px;
+}
+
+.screen .overlap {
+  background-color: #ffffff;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.screen .overlap-4 {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 1px 3px #00000026;
+  height: 240px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 20px;
+}
+
+.screen .line-2,
+.screen .line-3 {
+  height: 1px;
+  background-color: #e8eaed;
+  position: absolute;
+  width: calc(100% - 40px);
+  left: 20px;
+}
+
+.screen .line-2 {
+  top: 60px;
+}
+
+.screen .line-3 {
+  top: 120px;
+}
+
+.screen .img-2 {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.screen .text-wrapper-15 {
+  color: #5f6368;
+  font-family: "Noto Sans", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+}
+
+.screen .text-wrapper-16 {
+  color: #202124;
+  font-family: "Noto Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+}
+
+.screen .text-wrapper-17 {
+  color: #202124;
+  font-family: "Noto Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 80px;
+}
+
+.screen .div-2 {
+  color: #5f6368;
+  font-family: "Noto Sans", Helvetica;
+  font-size: 14px;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 140px;
+}
+
+.screen .group-7 {
+  background-color: #0b57d0;
+  border-radius: 24px;
+  height: 48px;
+  left: 20px;
+  position: absolute;
+  top: 172px;
+  width: calc(100% - 40px);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.screen .group-7:hover {
+  background-color: #0842a0;
+}
+
+.screen .overlap-group-3 {
+  height: 48px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen .text-wrapper-20 {
+  color: #ffffff;
+  font-family: "Noto Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}

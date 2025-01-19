@@ -1,0 +1,91 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  width: 540px;
+  height: 4230px;
+  position: relative;
+}
+
+.screen .group {
+  position: absolute;
+  width: 473px;
+  height: 102px;
+  top: 53px;
+  left: 33px;
+}
+
+.screen .icon {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 0;
+  left: 0;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  width: 336px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #222222;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 23.7px;
+  white-space: nowrap;
+}
+
+.screen .text-wrapper-2 {
+  position: absolute;
+  width: 336px;
+  height: 24px;
+  top: 42px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 500;
+  color: #0b57cf;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 23.7px;
+  white-space: nowrap;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  width: 472px;
+  height: 55px;
+  top: 291px;
+  left: 33px;
+  background-color: #0b57cf;
+  border-radius: 26px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.screen .div-wrapper:hover {
+  background-color: #0842a0;
+}
+
+.screen .text-wrapper-21 {
+  position: absolute;
+  height: 24px;
+  top: 14px;
+  left: 184px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.7px;
+  white-space: nowrap;
+}

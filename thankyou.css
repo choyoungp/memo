@@ -1,0 +1,92 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 540px;
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+}
+
+.screen .overlap {
+  position: absolute;
+  width: 100%;
+  max-width: 503px;
+  height: 451px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #0000001a;
+  padding: 40px;
+}
+
+.screen .text-wrapper {
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.24px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.screen .p {
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.20px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.screen .group {
+  position: absolute;
+  width: 241px;
+  height: 60px;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.screen .div-wrapper {
+  position: relative;
+  width: 239px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.screen .div-wrapper:hover {
+  background-color: #333333;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  width: 144px;
+  height: 27px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0.22px;
+  line-height: 20px;
+  text-align: center;
+}
